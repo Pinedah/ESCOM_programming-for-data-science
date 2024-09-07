@@ -1,8 +1,6 @@
 #! python3 
 # insertion-sort.py - 
 
-import random 
-
 def insertion_sort(arr):
     for j in range(1, len(arr)):
         key = arr[j]
