@@ -1,7 +1,7 @@
 #! python3 
 # insertion-sort.py - Insertion Sort
 
-import random, pprint
+import random
 
 def insertion_sort(arr):
     for j in range(1, len(arr)):
