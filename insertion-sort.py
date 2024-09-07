@@ -1,7 +1,7 @@
 #! python3 
 # insertion-sort.py - 
 
-import random
+import random, pprint
 
 def insertion_sort(arr):
     for j in range(1, len(arr)):
@@ -13,10 +13,11 @@ def insertion_sort(arr):
         arr[i + 1] = key
 
 def random_list(size):
-    return [random.randint(1, 100000) for _ in range(size)]
+    return [random.randint(1, 100) for _ in range(size)]
 
-numbers = [1,2,754,32,54,2,8,2,3,53,23,8,5,6]
+numbers = random_list(10)
 
+print(f"\nThe original list is:\t{str(numbers)}")
 insertion_sort(numbers)
 
-print((numbers))
+print(f"\nThe sorted list is:\t{str(numbers)}")
