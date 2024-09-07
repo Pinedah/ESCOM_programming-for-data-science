@@ -1,5 +1,5 @@
 #! python3 
-# insertion-sort.py - 
+# insertion-sort.py - Insertion Sort
 
 import random, pprint
 
