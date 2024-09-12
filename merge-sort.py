@@ -1,6 +1,8 @@
 #! python3
 # merge-sort.py - Merge Sort
 
+import random
+
 def merge_sort(arr):
     if len(arr) > 1:
         # Find the middle of the array
@@ -43,6 +45,11 @@ def merge(arr, left_half, right_half):
         k += 1
 
 # Example usage
-arr = [38, 27, 43, 3, 9, 82, 10]
-merge_sort(arr)
-print("Sorted array:", arr)
+
+def random_list(size):
+    return [random.randint(1, 100) for _ in range(size)]
+
+numbers = random_list(100)
+
+merge_sort(numbers)
+print("Sorted array:", numbers)
