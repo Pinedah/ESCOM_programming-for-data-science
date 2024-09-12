@@ -2,10 +2,6 @@
 # merge-sort.py - Merge Sort
 
 def merge_sort(arr):
-    arr = []
-
-"""
-def merge_sort(arr):
     if len(arr) > 1:
         # Find the middle of the array
         mid = len(arr) // 2
@@ -50,4 +46,3 @@ def merge(arr, left_half, right_half):
 arr = [38, 27, 43, 3, 9, 82, 10]
 merge_sort(arr)
 print("Sorted array:", arr)
-"""
