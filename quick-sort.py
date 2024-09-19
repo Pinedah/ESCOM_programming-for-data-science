@@ -27,5 +27,5 @@ def main():
     print(f'Arreglo ordenado {A}')
 
 
-if _name=='main_':
+if __name__ == '__main_':
     main()
